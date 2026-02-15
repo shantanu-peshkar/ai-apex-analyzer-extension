@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>AI Apex Settings</title>
+  <style>
+    body {
+      font-family: Arial;
+      padding: 20px;
+      width: 300px;
+      background: #f8fafc;
+    }
+
+    h3 {
+      margin-top: 0;
+    }
+
+    input {
+      width: 100%;
+      padding: 10px;
+      margin-top: 10px;
+      border-radius: 6px;
+      border: 1px solid #cbd5e1;
+      box-sizing: border-box;
+    }
+
+    button {
+      margin-top: 12px;
+      padding: 10px;
+      width: 100%;
+      border-radius: 6px;
+      border: none;
+      background-color: #0176d3;
+      color: white;
+      font-weight: 600;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #0b5cab;
+    }
+
+    #status {
+      margin-top: 10px;
+      font-size: 13px;
+    }
+  </style>
+</head>
+<body>
+
+<h3>🔐 Gemini API Key</h3>
+
+<input type="password" id="apiKey" placeholder="Enter Gemini API Key" />
+
+<button id="saveBtn">Save</button>
+
+<p id="status"></p>
+
+<script src="settings.js"></script>
+
+</body>
+</html>
